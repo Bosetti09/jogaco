@@ -5,31 +5,60 @@
 <head>        <!-- cabeca do site -->>
     <meta charset="UTF-8"/> <!--'linguagem' que vai ser usada-->>
     <title>acertar numero</title>
+    <style>
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF; /* Cor de fundo */
+            color: white; /* Cor do texto */
+            text-align: center;
+            text-decoration: none; /* Remove o sublinhado */
+            border-radius: 5px; /* Bordas arredondadas */
+            transition: background-color 0.3s; /* Transição suave */
+        }
+
+
+        .botao:hover {
+            background-color: #000000; /* Cor ao passar o mouse */
+        }
+    </style>
+
 
 <body>
     <!-- conteudo e corpo dele -->
-    <h1>tentativa 1</h1> <!-- titulo -->>
-
+    <h1>tentativa 1</h1> <!-- titulo -->
+    <h2>2 texto</h2>
+    <h3>3 texto</h3>
     <p>paragrafo</p>
 
     <a href="https://www.youtube.com/watch?v=-FQP7hD-J6A&t=307s&ab_channel=GimmiCodando">ajuda</a> <!-- link externo -->
 
-    <form action="formulario html" method="get" >
 
-        <label for="teisto">Nome: </label>  <!-- label 'cria' o id -->>
+    <form action="formulario.html" method="get" >
+
+
+        <label for="teisto">Nome: </label>  <!-- label 'cria' o id -->
         <input type="text" name="teisto" id="teisto">
-
+        <br>
         <label for="senha">Senha: </label>
         <input type="password" name="senha" id="senha">
-
         <button type="submit">Enviar</button>
+        <br>
+
 
         <label for="numero">Digite numero </label>
         <input type="number" name="numero" id="numero" min="1" max="122">
 
         <button type="reset">Resetar</button> <!-- botao de resetar -->
-        <button type="submit">Enviar: </button> <!-- botao de enviar -->>
+        <button type="submit">Enviar: </button> <!-- botao de enviar -->
     </form>
+
+
+    <br>
+    <a href="https://chatgpt.com/" class="botao">botao</a>
+
+
 </body>
 
-</html> <!--ultima linha sempre deve ser essa-->>
+
+</html>
