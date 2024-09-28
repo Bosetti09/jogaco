@@ -2,7 +2,7 @@ import random
 import os
 
 def jogar(): #criando a funcao jogar
-    num = random.randint(0, 10)
+    nm = random.randint(0, 10)
     tentativa = 0
     cont = 0
 
